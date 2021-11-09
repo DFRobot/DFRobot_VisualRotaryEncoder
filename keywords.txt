@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For DFRobot_VisualRotaryEncoder
+#######################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+DFRobot_VisualRotaryEncoder	KEYWORD1
+DFRobot_VisualRotaryEncoder_I2C	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+refreshBasicInfo	KEYWORD2
+getEncoderValue	KEYWORD2
+setEncoderValue	KEYWORD2
+getGainCoefficient	KEYWORD2
+setGainCoefficient	KEYWORD2
+detectButtonDown	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+NO_ERR	LITERAL1
+ERR_DATA_BUS	LITERAL1
+ERR_IC_VERSION	LITERAL1
+basicInfo	LITERAL1
+PID	LITERAL1
+VID	LITERAL1
+version	LITERAL1
+i2cAddr	LITERAL1
