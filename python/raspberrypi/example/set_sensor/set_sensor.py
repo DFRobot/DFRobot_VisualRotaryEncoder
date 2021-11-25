@@ -12,7 +12,9 @@
 '''
 from __future__ import print_function
 import sys
-sys.path.append('../')
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__)))))
+
 from DFRobot_VisualRotaryEncoder import *
 
 '''
