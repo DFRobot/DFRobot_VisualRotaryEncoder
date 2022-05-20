@@ -1,5 +1,5 @@
 # DFRobot_VisualRotaryEncoder
-* [English Version](./README.md)
+- [English Version](./README.md)
 
 这是一款使用简单的旋转编码器。使用了Gravity-I2C接口输出数据。与常规的电位器相比，它有更好的手感，更高的精度，旋转步进精度可设置。并且，有一圈LED显示当前的值，形象直观。
 
@@ -8,7 +8,7 @@
 ![产品实物图](./resources/images/VisualRotaryEncoder.png)
 
 
-## 产品链接 (链接到英文商城)
+## 产品链接 (https://www.dfrobot.com.cn/goods-3516.html)
     SKU: SEN0502
 
 
@@ -31,7 +31,10 @@
 
 ## 库安装
 
-要使用这个库，首先下载库文件，将其粘贴到\Arduino\libraries目录中，然后打开示例文件夹并在文件夹中运行演示。
+这里有2种安装方法：
+
+1. 使用此库前，请首先下载库文件，将其粘贴到\Arduino\libraries目录中，然后打开examples文件夹并在该文件夹中运行演示。
+2. 直接在Arduino软件库管理中搜索下载 DFRobot_VisualRotaryEncoder 库。
 
 
 ## 方法
@@ -115,8 +118,10 @@ FireBeetle-M0      |      √       |              |             |
 ## 历史
 
 - 2021/09/17 - 1.0.0 版本
+- 2022/05/20 - 1.0.1 版本
 
 
 ## 创作者
 
-Written by(yihuan.huang@dfrobot.com), 2021. (Welcome to our [website](https://www.dfrobot.com/))
+Written by(yihuan.huang@dfrobot.com), 2022. (Welcome to our [website](https://www.dfrobot.com/))
+

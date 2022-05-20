@@ -23,10 +23,10 @@
 #endif
 
 #define VISUAL_ROTARY_ENCODER_DEFAULT_I2C_ADDR   uint8_t(0x54)      ///< default I2C communication address 
-#define VISUAL_ROTARY_ENCODER_PID                uint16_t(0x01F6)   ///< module PID (SEN0502)(the highest two of 16-bit data are used to determine SKU type: 00：SEN, 01：DFR, 10：TEL. The next 14 are numbers)
+#define VISUAL_ROTARY_ENCODER_PID                uint16_t(0x01F6)   ///< module PID (SEN0502)(The highest two of 16-bit data are used to determine SKU type: 00：SEN, 01：DFR, 10：TEL, the next 14 are numbers.)
 
 // VISUAL_ROTARY_ENCODER register address
-#define VISUAL_ROTARY_ENCODER_PID_MSB_REG                 uint8_t(0x00)   ///< module PID memory register，default value is 0x01F6 (the highest two of 16-bit data are used to determine SKU type: 00：SEN, 01：DFR, 10：TEL. The next 14 are numbers)
+#define VISUAL_ROTARY_ENCODER_PID_MSB_REG                 uint8_t(0x00)   ///< module PID memory register，default value is 0x01F6 (The highest two of 16-bit data are used to determine SKU type: 00：SEN, 01：DFR, 10：TEL, the next 14 are numbers.)
 #define VISUAL_ROTARY_ENCODER_PID_LSB_REG                 uint8_t(0x01)
 #define VISUAL_ROTARY_ENCODER_VID_MSB_REG                 uint8_t(0x02)   ///< module VID memory register，default value is 0x3343（for manufacturer DFRobot）
 #define VISUAL_ROTARY_ENCODER_VID_LSB_REG                 uint8_t(0x03)
@@ -52,7 +52,7 @@ public:
    */
   typedef struct
   {
-    uint16_t PID;   /**< module PID, default value is 0x01F6 (the highest two of 16-bit data are used to determine SKU type: 00：SEN, 01：DFR, 10：TEL. The next 14 are numbers)(SEN0502) */
+    uint16_t PID;   /**< module PID, default value is 0x01F6 (The highest two of 16-bit data are used to determine SKU type: 00：SEN, 01：DFR, 10：TEL, the next 14 are numbers.)(SEN0502) */
     uint16_t VID;   /**< module VID, default value is 0x3343(for manufacturer DFRobot) */
     uint16_t version;   /**< firmware revision number: 0x0100 represents V0.1.0.0 */
     uint8_t i2cAddr;   /**< module communication address, default value is 0x54, module device address(0x54~0x57) */

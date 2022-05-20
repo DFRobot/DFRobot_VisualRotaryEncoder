@@ -13,7 +13,8 @@
 
 /**
  * Instantiate an object to drive our sensor;
- * Set address according to encoder DIP switch CH1 and CH2::
+ * Set address according to encoder DIP switch CH1 and CH2
+ * (the setting takes effect after encoder power fail and restart):
  * | 1 | 2 | ADDR |
  * |---|---|------|
  * | 0 | 0 | 0x54 |

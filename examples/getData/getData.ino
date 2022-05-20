@@ -12,7 +12,8 @@
 
 /**
  * Instantiate an object to drive our sensor;
- * Set address according to encoder DIP switch CH1 and CH2:
+ * Set address according to encoder DIP switch CH1 and CH2
+ * (the setting takes effect after encoder power fail and restart):
  * | 1 | 2 | ADDR |
  * |---|---|------|
  * | 0 | 0 | 0x54 |
@@ -39,7 +40,7 @@ void setup()
    */
   sensor.refreshBasicInfo();
 
-  /* Module PID, default value 0x01F6 (the highest two of the 16-bits data are used to judge SKU type: 00: SEN, 01: DFR, 10: TEL; The next 14 numbers are used as num)(SEN0502) */
+  /* Module PID, default value 0x01F6 (The highest two of 16-bit data are used to determine SKU type: 00: SEN, 01: DFR, 10: TEL, the next 14 are numbers.)(SEN0502) */
   Serial.print("PID: 0x0");
   Serial.println(sensor.basicInfo.PID, HEX);
 

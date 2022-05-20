@@ -25,11 +25,11 @@ logger.addHandler(ph)
 
 ## default I2C communication address 
 VISUAL_ROTARY_ENCODER_DEFAULT_I2C_ADDR = 0x54
-## module PID (SEN0502)(the highest two of the 16-bit data are used to determine SKU type: 00：SEN, 01：DFR, 10：TEL. The next 14 are used as number)
+## module PID (SEN0502)(The highest two of 16-bit data are used to determine SKU type: 00: SEN, 01: DFR, 10: TEL, the next 14 are numbers.)
 VISUAL_ROTARY_ENCODER_PID              = 0x01F6
 
 # VISUAL_ROTARY_ENCODER register address
-## module PID memory register，default value is 0x01F6 (the highest two values are used as class to judge 00：SEN、01：DFR、10：TEL，the next 14 numbers as num)
+## module PID memory register，default value is 0x01F6 (The highest two of 16-bit data are used to determine SKU type: 00: SEN, 01: DFR, 10: TEL, the next 14 are numbers.)
 VISUAL_ROTARY_ENCODER_PID_MSB_REG     = 0x00
 VISUAL_ROTARY_ENCODER_PID_LSB_REG     = 0x01
 ## module VID memory register，default value is 0x3343（for manufacturer DFRobot）

@@ -8,7 +8,7 @@
 ![产品实物图](../../resources/images/VisualRotaryEncoder.png)
 
 
-## 产品链接 (https://www.dfrobot.com/)
+## 产品链接 (https://www.dfrobot.com.cn/goods-3516.html)
     SKU：SEN0502
 
 
@@ -109,8 +109,9 @@
 ## 历史
 
 - 2021/09/15 - 1.0.0 版本
+- 2022/05/20 - 1.0.1 版本
 
 
 ## 创作者
 
-Written by qsjhyy(yihuan.huang@dfrobot.com), 2021. (Welcome to our [website](https://www.dfrobot.com/))
+Written by qsjhyy(yihuan.huang@dfrobot.com), 2022. (Welcome to our [website](https://www.dfrobot.com/))

@@ -5,10 +5,10 @@ This Rotary Encoder is easy to use and outputs data via Gravity-I2C interface. I
 
 It can be used to adjust volume, firepower, revolving speed, and to adjust output status of the RGB light when cascading three rotary encoders.
 
-![产品实物图](../../resources/images/VisualRotaryEncoder.png)
+![Product Photo Show](../../resources/images/VisualRotaryEncoder.png)
 
 
-## Product Link (https://www.dfrobot.com/)
+## Product Link (https://www.dfrobot.com/product-2575.html)
     SKU：SEN0502
 
 
@@ -108,8 +108,10 @@ Download the library file before use, paste it into the specified directory, the
 ## History
 
 - 2021/09/15 - Version 1.0.0 released.
+- 2022/05/20 - Version 1.0.1 released.
 
 
 ## Credits
 
-Written by qsjhyy(yihuan.huang@dfrobot.com), 2021. (Welcome to our [website](https://www.dfrobot.com/))
+Written by qsjhyy(yihuan.huang@dfrobot.com), 2022. (Welcome to our [website](https://www.dfrobot.com/))
+
